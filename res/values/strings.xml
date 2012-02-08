@@ -61,7 +61,6 @@
 	<string name="fetching_clock_ins">Please wait, fetching from database...</string>
 	<string name="error_showing">Error showing. Please contact developer.</string>
 	<string name="delete_all">Delete all</string>
-	<string name="export">Export</string>
 	<string name="confirm_want_to_delete_all">Are you sure you want to delete all?</string>
 	<string name="confirm_yes">Yes</string>
 	<string name="confirm_no">No</string>
