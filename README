@@ -1,6 +1,10 @@
 TimeClock Beta app
 Forum thread: http://www.swedroid.se/forum/showthread.php?t=52631
 
+How to use:
+In eclipse use New Project and Create project from existing source.
+
+You need to add android-wheel as library and add jxl.jar which is located in /libs. 
 
 Dependencies: 
 http://code.google.com/p/android-wheel/ android-wheel for Date dialog 
