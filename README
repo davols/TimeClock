@@ -1,0 +1,6 @@
+TimeClock
+Forum thread: http://www.swedroid.se/forum/showthread.php?t=52631
+
+Dependencies: 
+http://code.google.com/p/android-wheel/ android-wheel for Date dialog 
+http://jexcelapi.sourceforge.net/ java excel API for exporting to excel and csv easy. 
