@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	 android:layout_height="fill_parent">
+	<TextView android:layout_width="wrap_content" android:id="@+id/item_header"
+		android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+		android:layout_marginLeft="15dp" android:layout_marginTop="5dp"
+		android:textColor="@color/buttonTextColor" android:textSize="20sp"
+		android:layout_height="wrap_content" android:text="05/08/2011 19:00" />
+	<TextView android:layout_below="@id/item_header" android:id="@+id/item_tw_start"
+		android:layout_marginTop="5dp" android:textColor="@color/buttonTextColor"
+		android:layout_alignLeft="@id/item_header" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Start:" />
+	<TextView android:layout_alignTop="@id/item_tw_start"
+		android:layout_alignBottom="@id/item_tw_start"
+		android:layout_marginLeft="2dp" android:textColor="@color/buttonTextColor"
+		android:layout_toRightOf="@id/item_tw_start" android:layout_width="wrap_content"
+		android:id="@+id/item_start" android:layout_height="wrap_content"
+		android:text="16:00" />
+	<TextView android:layout_alignTop="@id/item_tw_start"
+		android:textColor="@color/buttonTextColor" android:layout_alignBottom="@id/item_tw_start"
+		android:layout_toRightOf="@id/item_start" android:layout_marginLeft="10dp"
+		android:layout_width="wrap_content" android:id="@+id/item_tw_end"
+		android:layout_height="wrap_content" android:text="End:" />
+	<TextView android:layout_alignTop="@id/item_tw_start"
+		android:layout_alignBottom="@id/item_tw_start" android:textColor="@color/buttonTextColor"
+		android:layout_toRightOf="@id/item_tw_end" android:layout_marginLeft="2dp"
+		android:layout_width="wrap_content" android:id="@+id/item_end"
+		android:layout_height="wrap_content" android:text="20:00" />
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/item_adress"
+		android:text="Götgatan 1" android:textSize="16sp" android:textColor="@color/buttonTextColor"
+		android:layout_marginTop="5dp" android:layout_alignLeft="@id/item_header"
+		android:layout_marginBottom="3dp"
+		android:paddingBottom="5dp"
+		android:layout_below="@id/item_tw_start" />
+</RelativeLayout>

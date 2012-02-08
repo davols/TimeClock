@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="item_context_menu">
+		<item>Edit</item>
+		<item>Delete</item>
+	
+	</string-array>
+	<string-array name="item_project_context_menu">
+		<item>Rename</item>
+		<item>Delete</item>
+	
+	</string-array>
+
+	<string-array name="timeOffset">
+		<item name="0">0 minutes</item>
+		<item name="15">15 minutes</item>
+		<item name="30">30 minutes</item>
+		<item name="60">60 minutes</item>
+	</string-array>
+
+	<string-array name="timeOffsetValues">
+		<item name="0">0</item>
+		<item name="15">15</item>
+		<item name="30">30</item>
+		<item name="60">60</item>
+	</string-array>
+
+	<string-array name="providers">
+		<item name="0">Both</item>
+		<item name="1">Only GPS</item>
+		<item name="2">Only Wifi/3G</item>
+	</string-array>
+	<string-array name="providerValues">
+		<item name="0">0</item>
+		<item name="1">1</item>
+		<item name="2">2</item>
+	</string-array>
+
+	<string-array name="accuracy">
+		<item name="10">10 meters</item>
+		<item name="50">50 meters</item>
+		<item name="100">100 meters</item>
+		<item name="250">250 meters</item>
+		<item name="500">500 meters</item>
+		<item name="1000">1 kilometer</item>
+	</string-array>
+	<string-array name="accuracyValues">
+		<item name="10">10</item>
+		<item name="50">50</item>
+		<item name="100">100</item>
+		<item name="250">250</item>
+		<item name="500">500</item>
+		<item name="1000">1000</item>
+	</string-array>
+
+	<string-array name="time">
+		<item name="0">Highest(Recommended)</item>
+		<item name="1000">1 second</item>
+		<item name="2000">2 seconds</item>
+		<item name="5000">5 seconds</item>
+
+	</string-array>
+	<string-array name="timeValues">
+		<item name="0">0</item>
+		<item name="1000">1000</item>
+		<item name="2000">2000</item>
+		<item name="5000">5000</item>
+	</string-array>
+	
+	
+		<string-array name="supportedFiles">
+		<item>Excel(97)</item>
+		<item>XML</item>
+		<item>CSV</item>
+		
+
+	</string-array>
+	<string-array name="supportedFilesValues">
+		<item>Excel(97)</item>
+		<item>XML</item>
+		<item>CSV</item>
+	</string-array>
+</resources>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">TimeClock</string>
+	<string name="app_settings">Settings</string>
+	<string name="manage_projects">Manage projects</string>
+	<string name="version_name">Version name: </string>
+	<string name="version_name_unable">Unable to fetch version name.Reason: </string>
+	<string name="ok">Ok</string>
+	<string name="clock_in">Clock in</string>
+	<string name="failed_rename_project">Failed to rename project.</string>
+	<string name="renamed_completed">Renamed completed!</string>
+	<string name="new_project">New project</string>
+	<string name="rename_value">You need to actually have a name for the project. If you don\'t want it, delete it.</string>
+	<string name="deletion_completed">Deletion completed</string>
+	<string name="deletion_failed">Deletion failed</string>
+	<!-- Main menu text -->
+	<string name="clock_out">Clock out</string>
+	<string name="list_all">List all</string>
+	<string name="settings">Settings</string>
+	<string name="export">Export</string>
+	<string name="info">Info</string>
+	<string name="unknown_address">Unknown adress</string>
+	<string name="today">Today</string>
+	<string name="handle_projects">Manage projects</string>
+	<!-- Pre clock in text -->
+	<string name="now">Now</string>
+	<string name="with_time_offset">With time offset</string>
+	<string name="cancel">Cancel</string>
+	<string name="adress_col">Address: </string>
+
+	<string name="hint_gps_fix">Please wait for GPS fix for better adress.</string>
+	<string name="hint_gps_on">Please turn on GPS for better adress</string>
+	<string name="hint_did_you_know_settings">Did you know that you can change the providers and
+		accuracy in the settings.</string>
+
+
+	<!-- Edit activity -->
+	<string name="hint_title">Title</string>
+	<string name="hint_description">Description</string>
+	<string name="hint_address">Address</string>
+	<string name="hint_neighhood">Neighborhood</string>
+	<string name="hint_start">Start: </string>
+	<string name="hint_end">End: </string>
+	<string name="hint_duration">Duration: </string>
+	<string name="delete">Delete</string>
+	<string name="save">Save</string>
+	<string name="error_to_open_clock_in_contact">Error to open ongoing clock. Please contact
+		developer if this problem persists.</string>
+	<string name="clocked_out">Clocked out!</string>
+	<string name="clocked_out_delete">Clock deleted.</string>
+	<string name="end_time_smaller_than_start">The end time can not be before the start time!
+	</string>
+	<string name="prompt_project">Select project</string>
+	<!-- ManageProjects -->
+	<string name="fetching_projects">Please wait, fetching projects...</string>
+	<string name="add_new_project">Add new project</string>
+	<string name="rename">Rename</string>
+
+	<!-- List acitivty -->
+	<string name="export_completed">Export completed.</string>
+	<string name="fetching_clock_ins">Please wait, fetching from database...</string>
+	<string name="error_showing">Error showing. Please contact developer.</string>
+	<string name="delete_all">Delete all</string>
+	<string name="export">Export</string>
+	<string name="confirm_want_to_delete_all">Are you sure you want to delete all?</string>
+	<string name="confirm_yes">Yes</string>
+	<string name="confirm_no">No</string>
+
+	<string name="export_selected">Export selected</string>
+	<string name="mark_all">Mark all</string>
+	<string name="unmark_all">Unmark all</string>
+	<string name="empty">Empty. No records available.</string>
+
+	<!-- Preferences -->
+	<string name="prefs_category_clockin">Clock in</string>
+	<string name="prefs_auto_clock_with_offset">Auto clock in</string>
+	<string name="prefs_auto_clock_with_offset_hint">Auto clocks you in with the chosen time offset.
+		When the clock in button is pressed.
+	</string>
+
+	<string name="prefs_auto_save">Auto save</string>
+	<string name="prefs_auto_save_hint">Auto saves the clock in when pressed clock out.
+	</string>
+
+
+	<string name="prefs_clock_in_offset">Time offset</string>
+	<string name="prefs_clock_in_offset_hint">The offset the time should be rounded up to. When
+		clocking in and out.
+		Example: 30 minutes rounds to nearest half hour.
+	</string>
+
+
+	<string name="prefs_category_time">Time</string>
+	<string name="prefs_time_24">24h clock</string>
+	<string name="prefs_time_24_hint">If true uses a 24 hour clock. If false AM/PM
+	</string>
+
+	<string name="prefs_category_location">Location</string>
+
+	<string name="prefs_provider">Location provider</string>
+	<string name="prefs_provider_hint">Choose which providers to get the location from.
+		GPS is faster but consumes more energy. Both is recommended.</string>
+
+	<string name="prefs_accuracy">Minimum accuracy</string>
+	<string name="prefs_accuracy_hint">Choose the minimum allowed accuracy for the address
+		lookup.</string>
+
+
+
+	<string name="prefs_time">Minimum update time</string>
+	<string name="prefs_time_hint">Choose the minimum time between location updates.
+		Smaller time leads
+		to better accuracy but worse battery life.</string>
+	<!-- Export preferences. -->
+	<string name="prefs_category_export">Export</string>
+	<string name="prefs_category_projects">Projects</string>
+	<string name="prefs_projects_create_project">Create a new project</string>
+	<string name="prefs_projects_create_project_hint">Creates a new project to assign clock ins to.
+	</string>
+	<string name="prefs_projects_new">New project</string>
+	<string name="prefs_projects_select">Default project</string>
+	<string name="prefs_projects_select_hint">Choose default project</string>
+
+	<string name="prefs_projects_delete">Delete a project</string>
+	<string name="prefs_projects_delete_hint">Deletes a specific project</string>
+
+
+	<string name="prefs_export_fileformat">File format</string>
+	<string name="prefs_export_fileformat_hint">Choose which format to export to</string>
+
+
+	<string name="export_fileName_default">Report_</string>
+	<string name="export_dialog_title">Filename</string>
+	<string name="export_toast_choose_something">You can not export air, can you?</string>
+	<string name="export_toast_choose_name">Incorrect filename, choose a real one.</string>
+	<string name="prefs_label_to_export">Data to export</string>
+
+	<string name="prefs_export_auto_send">Send as attachment</string>
+	<string name="prefs_export_auto_send_hint">Opens the send option to send the exported file at
+		successful export.</string>
+
+	<string name="prefs_export_autosend_mail">Mail receiver</string>
+	<string name="prefs_export_autosend_mail_hint">Mail receiver of the attachment</string>
+
+	<string name="prefs_export_keep_name">Keep title</string>
+	<string name="prefs_export_keep_name_hint">Export the saved title</string>
+	<string name="prefs_export_clockin_day">Complete clock in date</string>
+	<string name="prefs_export_clockin_day_hint">If true the date of the clock in is exported.
+	</string>
+	<string name="prefs_export_clockin_time">Check in time</string>
+	<string name="prefs_export_clockin_time_hint">If true the time of the clock in is exported
+	</string>
+
+	<string name="prefs_export_clockout_day">Complete clock out date</string>
+	<string name="prefs_export_clockout_day_hint">If true the date of the clock out is exported.
+	</string>
+	<string name="prefs_export_clockout_time">Clock out time</string>
+	<string name="prefs_export_clockout_time_hint">If true the time of the clock out is exported
+	</string>
+	<string name="prefs_export_description">Description</string>
+	<string name="prefs_export_description_hint">Exports the description of the clock in.</string>
+
+	<string name="prefs_export_duration">Duration</string>
+	<string name="prefs_export_duration_hint">Exports the duration of the clock in.</string>
+
+	<string name="prefs_export_adress">Address</string>
+	<string name="prefs_export_adress_hint">Exports the address of the clock in.</string>
+
+	<string name="prefs_export_neighborhood">Neighborhood</string>
+	<string name="prefs_export_neighborhood_hint">Exports the neighborhood of the clock in.</string>
+
+	<string name="prefs_export_totaltime">Total time</string>
+	<string name="prefs_export_totaltime_hint">Exports the total duration of all exported entries
+		summed up together.</string>
+
+	<string name="prefs_export_project">Project</string>
+	<string name="prefs_export_project_hint">Includes project name in export</string>
+
+
+	<string name="prefs_export_delete">Delete after export</string>
+	<string name="prefs_export_delete_hint">Deletes the clock in after export.</string>
+	<string name="export_header_name">Title</string>
+	<string name="export_header_clock_in_date">Clock in date</string>
+	<string name="export_header_clock_in_time">Clock in time</string>
+	<string name="export_header_clock_out_date">Clock out date</string>
+	<string name="export_header_clock_out_time">Clock out time</string>
+	<string name="export_header_adress">Address</string>
+	<string name="export_header_duration">Duration</string>
+	<string name="export_header_description">Description</string>
+	<string name="export_header_total_time">Total time</string>
+	<string name="export_header_neighborhood">Neighborhood</string>
+	<string name="export_header_project">Project</string>
+
+	<string name="sdcard_read_only">Error, your sdcard is read only and the export
+		function will not work. No export can be performed.</string>
+	<string name="sdcard_nofs">Error, your current sdcard is either blank or
+		formatted with wrong format. No export can be performed.</string>
+	<string name="sdcard_removed">Error, your sdcard is removed. No export can be
+		performed.</string>
+	<string name="sdcard_shared">Error, your sdcard is shared. No export
+		can be
+		performed.</string>
+	<string name="sdcard_unmountable">Error, your sdcard is unmountable. No export can be
+		performed.</string>
+	<string name="sdcard_unmounted">Error, your sdcard is currently unmounted. No
+		export can be performed.</string>
+	<string name="send">Send</string>
+	<string name="prefs_recipient">Recipient</string>
+</resources>

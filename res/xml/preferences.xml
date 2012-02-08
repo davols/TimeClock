@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceScreen android:title="@string/prefs_category_time"
+		android:key="prefs_category_time">
+		<CheckBoxPreference android:key="prefs_time_24"
+			android:title="@string/prefs_time_24" android:summary="@string/prefs_time_24_hint"
+			android:defaultValue="true" />
+	</PreferenceScreen>
+
+	<PreferenceScreen android:title="@string/prefs_category_clockin"
+		android:key="prefs_category_clockin">
+		<CheckBoxPreference android:key="prefs_auto_clock_with_offset"
+			android:title="@string/prefs_auto_clock_with_offset" android:summary="@string/prefs_auto_clock_with_offset_hint"
+			android:defaultValue="false" />
+		<ListPreference android:key="prefs_clock_in_offset"
+			android:title="@string/prefs_clock_in_offset" android:summary="@string/prefs_clock_in_offset_hint"
+			android:defaultValue="15" android:entries="@array/timeOffset"
+			android:entryValues="@array/timeOffsetValues" />
+		<CheckBoxPreference android:key="prefs_auto_save"
+			android:title="@string/prefs_auto_save" android:summary="@string/prefs_auto_save_hint"
+			android:defaultValue="false" />
+	</PreferenceScreen>
+
+	<PreferenceScreen android:title="@string/prefs_category_location"
+		android:key="@string/prefs_category_location">
+		<ListPreference android:key="prefs_provider"
+			android:title="@string/prefs_provider" android:summary="@string/prefs_provider_hint"
+			android:defaultValue="0" android:entries="@array/providers"
+			android:entryValues="@array/providerValues" />
+		<ListPreference android:key="prefs_accuracy"
+			android:title="@string/prefs_accuracy" android:summary="@string/prefs_accuracy_hint"
+			android:defaultValue="500" android:entries="@array/accuracy"
+			android:entryValues="@array/accuracyValues" />
+		<ListPreference android:key="prefs_time" android:title="@string/prefs_time"
+			android:summary="@string/prefs_time_hint" android:defaultValue="0"
+			android:entries="@array/time" android:entryValues="@array/timeValues" />
+	</PreferenceScreen>
+
+	<PreferenceScreen android:title="@string/prefs_category_export"
+		android:key="prefs_category_export">
+		<ListPreference android:key="prefs_export_fileformat"
+			android:title="@string/prefs_export_fileformat" android:summary="@string/prefs_export_fileformat_hint"
+			android:defaultValue="Excel(97)" android:entries="@array/supportedFiles"
+			android:entryValues="@array/supportedFilesValues" />
+		<CheckBoxPreference android:key="prefs_export_auto_send"
+			android:title="@string/prefs_export_auto_send" android:summary="@string/prefs_export_auto_send_hint"
+			android:defaultValue="true" />
+		<EditTextPreference android:key="prefs_export_autosend_mail"
+			android:inputType="textEmailAddress" android:hint="@string/prefs_recipient"
+			android:title="@string/prefs_export_autosend_mail" android:summary="@string/prefs_export_autosend_mail_hint"
+			android:dependency="prefs_export_auto_send" />
+		<PreferenceCategory android:title="@string/prefs_label_to_export">
+			<CheckBoxPreference android:key="prefs_export_keep_name"
+				android:title="@string/prefs_export_keep_name" android:summary="@string/prefs_export_keep_name_hint"
+				android:defaultValue="true" />
+			<CheckBoxPreference android:key="prefs_export_project"
+				android:title="@string/prefs_export_project" android:summary="@string/prefs_export_project_hint"
+				android:defaultValue="true" />
+			<CheckBoxPreference android:key="prefs_export_totaltime"
+				android:title="@string/prefs_export_totaltime" android:summary="@string/prefs_export_totaltime_hint"
+				android:defaultValue="true" />
+			<CheckBoxPreference android:key="prefs_export_clockin_day"
+				android:title="@string/prefs_export_clockin_day" android:summary="@string/prefs_export_clockin_day_hint"
+				android:defaultValue="true" />
+			<CheckBoxPreference android:key="prefs_export_clockin_time"
+				android:title="@string/prefs_export_clockin_time" android:summary="@string/prefs_export_clockin_time_hint"
+				android:defaultValue="true" />
+			<CheckBoxPreference android:key="prefs_export_clockout_day"
+				android:title="@string/prefs_export_clockout_day" android:summary="@string/prefs_export_clockout_day_hint"
+				android:defaultValue="true" />
+			<CheckBoxPreference android:key="prefs_export_clockout_time"
+				android:title="@string/prefs_export_clockout_time" android:summary="@string/prefs_export_clockout_time_hint"
+				android:defaultValue="true" />
+			<CheckBoxPreference android:key="prefs_export_duration"
+				android:title="@string/prefs_export_duration" android:summary="@string/prefs_export_duration_hint"
+				android:defaultValue="true" />
+			<CheckBoxPreference android:key="prefs_export_adress"
+				android:title="@string/prefs_export_adress" android:summary="@string/prefs_export_adress_hint"
+				android:defaultValue="true" />
+			<CheckBoxPreference android:key="prefs_export_neighborhood"
+				android:title="@string/prefs_export_neighborhood" android:summary="@string/prefs_export_neighborhood_hint"
+				android:defaultValue="true" />
+			<CheckBoxPreference android:key="prefs_export_description"
+				android:title="@string/prefs_export_description" android:summary="@string/prefs_export_description_hint"
+				android:defaultValue="false" />
+			<CheckBoxPreference android:key="prefs_export_delete"
+				android:title="@string/prefs_export_delete" android:summary="@string/prefs_export_delete_hint"
+				android:defaultValue="true" />
+		</PreferenceCategory>
+	</PreferenceScreen>
+</PreferenceScreen>
